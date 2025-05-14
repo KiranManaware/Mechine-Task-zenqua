@@ -6,8 +6,10 @@ import { Trash2 } from 'lucide-react';
 
 const DealRow = ({ deal }) => {
   return (
-    <div className="grid grid-cols-12 gap-4 px-4 py-3 border-b border-gray-200 hover:bg-gray-50 transition-colors">
-      <div className="col-span-3 flex items-center">
+    <div className="grid grid-cols-12 gap-4 px-4 py-3 border-b border-gray-200 hover:bg-gray-50 transition-colors 
+            sm:grid-cols-12 
+            [@media(max-width:550px)]:grid-cols-1">
+      <div className="col-span-3 flex  items-center">
         <Avatar 
           name={deal.client.name}
           initials={deal.client.initials}

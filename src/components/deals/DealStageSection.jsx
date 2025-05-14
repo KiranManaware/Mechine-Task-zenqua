@@ -23,7 +23,7 @@ const DealStageSection = ({ stageGroup, onToggleExpand }) => {
   const bgColor = stageBgColors[stage] || 'bg-gray-50';
 
   return (
-    <div className="mb-2 border border-gray-200 rounded-md overflow-hidden">
+    <div className="mb-2 border border-gray-200  rounded-md overflow-hidden">
       <div 
         className={`flex items-center justify-between px-4 py-3 cursor-pointer ${bgColor} hover:bg-opacity-80 transition-colors`}
         onClick={handleToggle}

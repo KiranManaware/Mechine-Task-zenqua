@@ -1,5 +1,7 @@
 import React from 'react';
 import Button from './ui/Button';
+import image from "../assets/client-cover.png";
+
 
 const HeroSection = () => {
   return (
@@ -15,7 +17,7 @@ const HeroSection = () => {
           </div>
           <div className="md:w-1/2">
             <img
-              src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src={image}
               alt="Team collaboration"
               className="rounded-lg shadow-md w-full"
             />

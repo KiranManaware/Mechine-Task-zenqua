@@ -30,7 +30,7 @@ const DealFilters = ({
           />
         </div>
         
-        <div className="flex items-center gap-2">
+        <div className="flex items-center flex-wrap gap-2">
           <div className="flex items-center gap-1">
             <span className="text-sm text-gray-500">From:</span>
             <div className="relative">
@@ -43,6 +43,7 @@ const DealFilters = ({
               <Calendar className="absolute left-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
             </div>
           </div>
+
           
           <div className="flex items-center gap-1">
             <span className="text-sm text-gray-500">To:</span>
